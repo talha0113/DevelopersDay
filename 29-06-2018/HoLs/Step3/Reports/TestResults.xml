@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<test-results name="Karma Results" date="2018-06-27" time="14:27:58" invalid="0" ignored="0" inconclusive="0" not-run="0" errors="0" total="7" failures="0" skipped="0">
+  <environment nunit-version="na" clr-version="na" os-version="10.0.17134" platform="win32" cwd="C:/Users/mohammad.nomani/OneDrive/PC/Documents/Presentations/Developer Day 29 June 2018/HoLs/Step3/Configurations/Karma" user="na" user-domain="na" machine-name="PA18522"/>
+  <culture-info current-culture="na" current-uiculture="na"/>
+  <test-suite name="Mozilla/5.0 (win32) AppleWebKit/537.36 (KHTML, like Gecko) jsdom/11.10.0" type="TestFixture" executed="true" result="Success">
+    <results>
+      <test-case name="Addition" time="0.003" description="Mozilla/5.0 (win32) AppleWebKit/537.36 (KHTML, like Gecko) jsdom/11.10.0.Calculator operations" executed="True" success="True" result="Success"/>
+      <test-case name="Subtraction" time="0.002" description="Mozilla/5.0 (win32) AppleWebKit/537.36 (KHTML, like Gecko) jsdom/11.10.0.Calculator operations" executed="True" success="True" result="Success"/>
+      <test-case name="Division is 0" time="0.002" description="Mozilla/5.0 (win32) AppleWebKit/537.36 (KHTML, like Gecko) jsdom/11.10.0.Calculator operations" executed="True" success="True" result="Success"/>
+      <test-case name="Multiplication" time="0.004" description="Mozilla/5.0 (win32) AppleWebKit/537.36 (KHTML, like Gecko) jsdom/11.10.0.Calculator operations" executed="True" success="True" result="Success"/>
+      <test-case name="Division is Positive Infinity" time="0.002" description="Mozilla/5.0 (win32) AppleWebKit/537.36 (KHTML, like Gecko) jsdom/11.10.0.Calculator operations" executed="True" success="True" result="Success"/>
+      <test-case name="Division is 5" time="0.002" description="Mozilla/5.0 (win32) AppleWebKit/537.36 (KHTML, like Gecko) jsdom/11.10.0.Calculator operations" executed="True" success="True" result="Success"/>
+      <test-case name="Division is Negative Infinity" time="0.004" description="Mozilla/5.0 (win32) AppleWebKit/537.36 (KHTML, like Gecko) jsdom/11.10.0.Calculator operations" executed="True" success="True" result="Success"/>
+    </results>
+  </test-suite>
+</test-results>

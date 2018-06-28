@@ -1,0 +1,20 @@
+﻿<html>
+<head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<!-- 3. Display the application -->
+<body>
+	<label id='lblNumberX'>X</label><br /><input type='text' id='firstNumber' /><br/><br/>
+	<label id='lblNumberY'>Y</label><br /><input type='text' id='secondNumber' /><br/><br/>
+	<select id='calculatorFunctions'>
+		<option value='add'>add</option>
+		<option value='subtract'>subtract</option>
+		<option value='multiply'>multiply</option>
+		<option value='divide'>divide</option>
+	</select>
+	<button type='button' id='btnCalc'>Calculate</button><br /><br />
+	<label>Result: </label><label id='lblResult'></label><br />
+</body>
+</html>

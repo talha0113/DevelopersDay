@@ -1,0 +1,39 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Modern Front End Development Flow",
+  "author": {
+    "name": "ProActive A/S"
+  },
+  "scripts": {
+    "build": "webpack --mode production --config ./Configurations/WebPack/webpack.app.config.js --progress --profile",
+    "start": "webpack-dev-server --mode development --config ./Configurations/WebPack/webpack.dev.server.config.js",
+    "test": "karma start ./Configurations/Karma/karma.config.js"
+  },
+  "devDependencies": {
+    "typescript": "~2.9.2",
+    "webpack": "~4.12.2",
+    "webpack-cli": "~3.0.8",
+    "webpack-dev-server": "~3.1.4",
+    "webpack-merge": "~4.1.3",
+    "html-webpack-plugin": "~3.2.0",
+    "awesome-typescript-loader": "~5.2.0",
+    "source-map-loader": "~0.2.3",
+    "@types/node": "~10.3.6",
+    "karma": "~2.0.2",
+    "karma-jasmine": "~1.1.2",
+    "karma-jsdom-launcher": "~6.1.3",
+    "karma-webpack": "~3.0.0",
+    "karma-sourcemap-loader": "~0.3.7",
+    "karma-coverage": "~1.1.2",
+    "karma-coverage-istanbul-reporter": "~2.0.0",
+    "karma-htmlfile-reporter": "~0.3.5",
+    "karma-jasmine-html-reporter": "~1.1.0",
+    "karma-nunit2-reporter": "~0.3.0",
+    "jsdom": "~11.10.0",
+    "jasmine-core": "~3.1.0",
+    "istanbul-instrumenter-loader": "~3.0.1",
+    "@types/jasmine": "~2.8.7",
+    "@types/karma": "~1.7.3"
+  }
+}
