@@ -24,7 +24,7 @@ module.exports = webpackMerge(commonConfig, {
         }),
         new HtmlWebpackPlugin({
             title: 'Calculator Application',
-            filename: '../Pages/Default.html',
+            filename: './Pages/Default.html',
             template: './Pages/Default-Template.ejs',
             inject: true
         })
